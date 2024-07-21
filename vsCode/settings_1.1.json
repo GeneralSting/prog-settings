@@ -1,0 +1,129 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "vscode-icons",
+  "explorer.confirmDelete": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.lineNumbers": "on",
+  "workbench.startupEditor": "none",
+  "workbench.settings.applyToAllProfiles": ["glassit-linux.opacity"],
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 5,
+  "explorer.compactFolders": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.titleBarStyle": "native",
+  "breadcrumbs.enabled": false,
+  "workbench.sideBar.location": "right",
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "workbench.editor.showTabs": "none",
+  "zenMode.showTabs": "none",
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.statusBar.visible": false,
+
+  // Todo Tree
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text-and-comment",
+    "foreground": "#abb2bf",
+    "opacity": 50,
+    "iconColour": "#abb2bf"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug",
+      "foreground": "#e5c07b",
+      "iconColour": "#e5c07b"
+    },
+    "TODO": {
+      "icon": "checklist",
+      "iconColour": "#98c379",
+      "foreground": "#98c379"
+    },
+    "ERROR": {
+      "icon": "circle-slash",
+      "iconColour": "#e06c75",
+      "foreground": "#e06c75"
+    },
+    "FIXME": {
+      "icon": "tools",
+      "iconColour": "#61afef",
+      "foreground": "#61afef"
+    },
+    "XXX": {
+      "icon": "bell"
+    },
+    "[ ]": {
+      "icon": "issue-draft",
+      "iconColour": "#c678dd",
+      "foreground": "#c678dd"
+    },
+    "[x]": {
+      "icon": "issue-closed",
+      "iconColour": "#56b6c2",
+      "foreground": "#56b6c2"
+    },
+    "CODE": {
+      "icon": "code"
+    }
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "ERROR",
+    "CODE"
+  ],
+
+  // java
+  "explorer.confirmPasteNative": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": true,
+  "php.validate.executablePath": "/opt/lampp/bin/php",
+
+  // apc customization
+
+  "apc.electron": {
+    "opacity": 0.9
+  },
+
+  "apc.menubar.compact": true,
+  "apc.activityBar": {
+    "size": 30,
+    "position": "bottom",
+    "itemSize": 30,
+    "itemMargin": 8
+  },
+
+  "apc.sidebar.titlebar": {
+    "height": 30,
+    "fontSize": 12
+  },
+
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 30,
+    "fontSize": 11
+  },
+
+  "apc.listRow": {
+    "lists": [
+      "explorer-folders-view",
+      "quick-input-list",
+      "results",
+      "tabs-list"
+    ],
+    "height": 30,
+    "fontSize": 13
+  }
+}
